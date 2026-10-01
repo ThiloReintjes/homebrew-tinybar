@@ -7,7 +7,7 @@ cask "tinybar" do
   desc "Menu bar app for AI subscription limits, token history and API-equivalent cost"
   homepage "https://github.com/ThiloReintjes/tinybar"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Tinybar.app"
 
