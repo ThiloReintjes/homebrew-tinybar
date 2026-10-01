@@ -19,8 +19,7 @@ cask "tinybar" do
   ]
 
   caveats <<~EOS
-    Tinybar isn't notarized yet, so macOS blocks its first launch:
-      1. open -a Tinybar, then click Done on the warning.
-      2. System Settings → Privacy & Security → Open Anyway.
+    Not notarized yet: on first launch, click Done, then Open Anyway in
+    System Settings → Privacy & Security.
   EOS
 end
