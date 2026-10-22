@@ -7,6 +7,11 @@ cask "tinybar" do
   desc "Menu bar app for AI subscription limits, token history and API-equivalent cost"
   homepage "https://github.com/ThiloReintjes/tinybar"
 
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   depends_on macos: :sonoma
 
   app "Tinybar.app"
@@ -17,9 +22,4 @@ cask "tinybar" do
     "~/Library/Application Support/Tinybar",
     "~/Library/Preferences/com.tinybar.app.plist",
   ]
-
-  caveats <<~EOS
-    Not notarized yet: on first launch, click Done, then Open Anyway in
-    System Settings → Privacy & Security.
-  EOS
 end
