@@ -1,6 +1,6 @@
 cask "tinybar" do
-  version "0.11.0"
-  sha256 "b754f0d252fb294af1f361751b77f33b6a6c0de4a0aa746bb14649632713e106"
+  version "0.12.0"
+  sha256 "5a4654c52d1a02db6562d514282eab00a461cd9ce911e92f170f312f6dfd3d90"
 
   url "https://github.com/ThiloReintjes/tinybar/releases/download/v#{version}/Tinybar-#{version}.zip"
   name "Tinybar"
